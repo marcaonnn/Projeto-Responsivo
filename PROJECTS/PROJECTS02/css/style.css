@@ -1,5 +1,5 @@
 * {
-     font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -90,3 +90,5 @@ p {
 .button-learn:hover {
     text-decoration: underline;
 }
+
+
