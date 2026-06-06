@@ -1,0 +1,46 @@
+
+
+/* 
+    DISPLAY
+
+        - BLOCK
+        - INLINE
+        - INLINE-BLOCK
+
+        - GRID
+        - FLEX
+
+        - BLOCK
+            - Vem como padrão: div, sectiom, p, h1, h2, ul, li, article, aside, footer, header, nav, main, form, fieldset, legend, figure, figcaption, address, blockquote, pre, hr
+
+            - Ocupa 100% da largura do elemento pai, ou seja, quebra a linha. Respeita as propriedades de largura e altura, e também as propriedades de margem e preenchimento em todas as direções (horizontal e vertical).
+
+            - Sempre ocupa toda a sua linha, ou seja, quebra a linha antes e depois do elemento. Se o conteúdo do elemento block for maior que a largura disponível, ele quebrará para a próxima linha.
+
+            - Altura definida de acordo com o conteúdo, a menos que seja especificada uma altura fixa. Se o conteúdo for maior que a altura definida, o elemento block se expandirá para acomodar o conteúdo.
+
+            - Podemos definir valores de margem e preenchimento em todas as direções, ou seja, margin-top, margin-bottom, margin-left, margin-right, padding-top, padding-bottom, padding-left e padding-right terão efeito em elementos block.
+
+            - Podemos definir valores de width e height, e o elemento block respeitará esses valores. Se a largura ou altura definida for menor que o conteúdo, o elemento block se expandirá para acomodar o conteúdo.
+
+        - INLINE
+            - Vem como padrão: span, a, strong, em, b, i, u, small, sub, sup, mark, abbr, time, code, var, samp, kbd, q, cite, dfn, s, del, ins, s, del, ins, wbr, br
+
+            - Elementos em linha, ou seja, não quebram a linha, e só ocupam o espaço necessário para o seu conteúdo. Não respeitam as propriedades de largura e altura, mas respeitam as propriedades de margem e preenchimento (mas apenas na horizontal).
+
+            - Não permite alterar o height e width, mas permite alterar a margem e o preenchimento (mas apenas na horizontal).
+            
+            - Não podemos definir valores de margem e preenchimento na vertical, ou seja, margin-top, margin-bottom, padding-top e padding-bottom não terão efeito em elementos inline.
+
+            - Ganha comportamento de uma palavra, ou seja, se tiver um elemento inline dentro de um elemento block, ele se comportará como uma palavra dentro de um parágrafo. Se o conteúdo do elemento inline for maior que a largura disponível, ele quebrará para a próxima linha.
+        
+        - INLINE-BLOCK
+
+            - Elementos em linha, ou seja, não quebram a linha, mas respeitam as propriedades de largura e altura. Permite definir valores de margem e preenchimento tanto na horizontal quanto na vertical.
+
+            - altura e largura podem ser alterados, e as margens e preenchimentos podem ser aplicados em todas as direções (horizontal e vertical).
+
+            - Vem como padrão: img, video, audio, canvas, svg, iframe, input, textarea, select, button, label, meter, progress, object, embed, map, area, param, source, track, wbr
+
+
+*/

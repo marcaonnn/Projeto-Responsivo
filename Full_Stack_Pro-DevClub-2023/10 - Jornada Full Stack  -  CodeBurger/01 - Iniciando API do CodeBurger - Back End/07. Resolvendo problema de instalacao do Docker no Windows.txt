@@ -1,0 +1,2 @@
+Resolvendo problema de virtualização: https://www.youtube.com/watch?v=uaxXB5h43sc
+WSL2: https://docs.microsoft.com/pt-br/windows/wsl/install-win10

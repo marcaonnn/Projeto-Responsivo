@@ -1,0 +1,28 @@
+<!-- FORMS
+    - Capturar dados de entrada
+    - Input -> Entra
+
+    Action -> define para qual url será enviado os dados do formulário
+    Method -> define o método HTTP para envio dos dados do formulário
+        - GET -> Envia os dados do formulário anexados à URL, visíveis para o usuário
+        - POST -> Envia os dados do formulário no corpo da requisição, não visíveis para o usuário
+
+-->
+
+<form action="" method="get" enctype="multipart/form-data">
+    <h1>Digite seu Endereço</h1>
+    <label for="rua">Rua:</label>
+    <input type="text" id="rua" name="rua">
+    <br><br><br>
+    <label for="numero">Número:</label>
+    <input type="number" name="numero">
+    <br><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br><br><br>
+    <label for="foto">Foto:</label>
+    <input type="file" id="foto" name="arquivo">
+    <br><br><br>
+    <button type="reset">Reset</button>
+    <button type="submit">Enviar</button>
+</form>

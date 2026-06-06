@@ -1,0 +1,92 @@
+* {
+     font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+    margin: 60px;
+}
+
+.link-nav {
+    font-size: 20px;
+    color: #17233D;
+    text-decoration: none;
+}
+
+.link-nav:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container-main {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.logo {
+/* (Positive) Congratulation You get 40 point for your ride */
+
+position: absolute;
+width: 595.18px;
+height: 500px;
+left: 121px;
+top: 246px;
+
+
+}
+
+h1 {
+    font-weight: 700;
+    width: 582px;
+    font-size: 62px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    color: #4B505A;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+}
+
+.button-sing {
+    background-color: #6FBF44;
+    width: 124px;
+    padding: 15px;
+    border: 1px;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 14px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.button-sing:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 0.9;
+    transition: 1s;
+}
+
+.button-learn {
+    color: #6FBF44;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button-learn:hover {
+    text-decoration: underline;
+}

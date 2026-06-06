@@ -1,0 +1,13 @@
+DevClub
+Formação completa para sair do ZERO e se tornar um Programador(a) de sucesso!
+DevClub
+https://plataforma.devclub.com.br/area/produto/item/279528
+Nas próximas aulas vamos aprender sobre o React Router Dom.
+Porém, recentemente tivemos uma grande atualização dessa biblioteca e alguns recursos foram atualizados.
+Nas aulas seguintes eu ensino a versão antiga, pois ainda é AMPLAMENTE utilizada no mercado, se eu ensinar apenas a versão mais moderna, você pode não entender a grande maioria dos projetos em React, essas migrações demoram um tempo para serem feitas na maioria dos projetos.
+Porém, criei uma aula onde falo de todas as diferenças da versão 5 para a 6.
+Link da Aula:
+Se quiser seguir, e fazer como eu faço nas próximas aulas, você pode instalar o React Router Dom v5. Não terá nenhum prejuízo ao seu projeto ou a sua evolução como Programador ou Programadora.
+Para instalar a versão 5, use o seguinte comando:
+yarn add react-router-dom@5
+

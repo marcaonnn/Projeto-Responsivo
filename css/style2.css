@@ -1,0 +1,17 @@
+/* 
+    UNIDADES DE MEDIDAS
+
+    -> ABSOLUTAS
+        px (pixels)
+        in (inches/polegadas)
+        cm / mm (centímetro / milímetro)
+
+    - RELATIVAS
+        % calcula o tamanho relativa ao elemento pai
+        vw (view width) 1vw é 1% da largura da janela do navegador
+        vh (view height) 1vh é 1% da altura da janela do navegador
+        vmin (view minimum) 1vmin é 1% da menor dimensão da janela do navegador
+        vmax (view maximum) 1vmax é 1% da maior dimensão da janela do navegador
+        em é uma unidade relativa ao tamanho da fonte do elemento pai
+        rem é uma unidade relativa ao tamanho da fonte do elemento raiz (html)
+*/
