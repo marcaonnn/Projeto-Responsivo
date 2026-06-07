@@ -1,0 +1,35 @@
+/* PSEUDO ELEMENTOS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* input {
+    border: 1px solid red;
+}
+
+input::placeholder {
+    color: #FF1396;
+}
+
+p::first-letter {
+    color: red;
+}
+
+p::first-line {
+    color: green;
+} */
+
+a {
+    color: blue;
+}
+
+/* a::before {
+    content: '→';
+} */
+
+a::after {
+    content: '→';
+}
