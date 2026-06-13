@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #1e293b;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    /*flex-direction: row;*/ /* Padrão */
+    /* flex-wrap: nowrap; Padrão */
+
+    /* flex-flow: column wrap; Adiciona as propriedades de flex-direction e flex-wrap juntos */
+
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.item {
+    background-color: #7e22ce;
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    height: 50px;
+    width: 50px;
+}
